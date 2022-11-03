@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Math Game</title>
+  </head>
+  <body>
+    <!--Main container-->
+    <div class="container" id="container">
+      <!--Score Box-->
+      <div class="score" id="score">Score: <span id="scorevalue">0</span></div>
+      <!--Feedback messages-->
+      <div id="correct">Correct</div>
+      <div id="wrong">Try Again</div>
+      <!--Question-->
+      <div id="question"></div>
+      <!--Instruction-->
+      <div id="instruction">Click the correct answer</div>
+      <!--Multiple choice boxes container-->
+      <div id="choices">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+      </div>
+      <!--Start and reset button-->
+      <div id="startreset">Start Game</div>
+      <!--Time remaining box-->
+      <div id="timeremaining">
+        Time Remaining: <span id="timeremainingbox"></span> sec
+      </div>
+      <!--Game Over pop up modal-->
+      <div id="gameOver">
+        <!--<p>Game Over!</p>
+        <p>Your Score is 20</p>
+        -->
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
